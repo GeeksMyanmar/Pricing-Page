@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #1e2a47 60%, #6CD4D4 60%);
+    color: #ffffff;
+    min-height: 100vh;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #07CCC9;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 2rem 3rem;
+    background-color: #040B30;
+  }
+
+  .logo {
+    color: #07CCC9;
+    margin-left: 200px;
+  }
+  
+  .navbar nav a {
+    color: #07CCC9;
+    margin: 0 1rem;
+    margin-left: 50px;
+  }
+  
+  span {
+    color: #fff;
+  }
+
+  .get-started {
+    background-color: #6CD4D4;
+    color: #10162e;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 350px;
+    padding: 20px 15px;
+  }
+  
+  .pricing-section {
+    padding: 3rem 2rem;
+  }
+  
+  .description {
+    text-align: center;
+    margin: 1rem 0 2rem;
+    margin-bottom: 80px;
+  }
+  
+  .pricing-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slider-card {
+    background-color: #10162e;
+    padding: 2rem;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    margin-top: 50px;
+  }
+  
+  .how {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .slider-card .slider-value {
+    font-size: 2rem;
+    color: #07CCC9;
+    margin: 1rem 0;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    margin: 1rem 0;
+    -webkit-appearance: none;
+    height: 8px;
+    background: #4A57A3;
+    border-radius: 5px;
+  }
+  
+  .pricing-card {
+    background-color: #6CD4D4;
+    color: #10162e;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .pricing-card ul {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+  }
+  
+  .pricing-card li {
+    margin: 0.5rem 0;
+  }
+  
+  .get-in-touch {
+    background: #4A57A3;
+    color: #19e3cb;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .emp {
+    color: #000;
+  }
+
+  .emp2 {
+    color: #000;
+    font-weight: 100;
+    font-size: 15px;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .left-txt {
+    padding-right: 20px;
+  }
+
+  .tick {
+    color: #4A57A3;
+  }
+
+  .list {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
